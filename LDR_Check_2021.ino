@@ -1,6 +1,6 @@
 //set pin numbers
 const int ledPin = 13; //the number of the LED pin
-const int ldrPin = A4; //the number of the LDR pin
+const int ldrPin = A0; //the number of the LDR pin
 
 void setup() {
   Serial.begin (1000);
