@@ -16,7 +16,7 @@ void loop() {
   //if it is, the LED is HIGH 
 
     if (ldrStatus <=300) {
-      digitalWrite (ledPin, LOW);              //turn LED on
+      digitalWrite (ledPin, HIGH);              //turn LED on
       Serial.println ("LDR is DARK, LED is ON"); 
       
     }
